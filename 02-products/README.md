@@ -39,7 +39,7 @@ Antes de comenzar, asegúrate de tener:
 En `index.html`, ya está incluido el script necesario:
 
 ```html
-<script src="https://static.smartfy.tech/widget/product.js"></script>
+<script src="https://static.smartfy.tech/widget/prod/product.js"></script>
 ```
 
 Y el contenedor para montarlo:
@@ -55,7 +55,7 @@ Y el contenedor para montarlo:
 Para usar este widget en producción:
 
 - Asegúrate de usar tu `clientSecret` real.
-- Puedes incluir el widget directamente desde: `https://static.smartfy.tech/widget/product.js`
+- Puedes incluir el widget directamente desde: `https://static.smartfy.tech/widget/prod/product.js`
 - Asegúrate de que tu dominio tenga acceso a los recursos necesarios (fuentes, estilos, etc.).
 
 ---
