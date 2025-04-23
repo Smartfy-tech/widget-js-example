@@ -17,7 +17,7 @@ Abre `index.html` y reemplaza `"CLIENT_SECRET"` con tu valor real proporcionado 
 widget.mount({
   clientSecret: "TU_CLIENT_SECRET_AQUI",
   limit: 8,
-  selector: '#app',
+  selector: '#smartfy-sdk-product-list',
   onLoaded: () => console.log("Widget cargado"),
   onError: (err) => console.error("Error:", err)
 });
@@ -45,7 +45,7 @@ En `index.html`, ya está incluido el script necesario:
 Y el contenedor para montarlo:
 
 ```html
-<div id="app"></div>
+<div id="smartfy-sdk-product-list"></div>
 ```
 
 ---
