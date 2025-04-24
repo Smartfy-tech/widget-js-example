@@ -17,7 +17,7 @@ Abre `index.html` y reemplaza `"CLIENT_SECRET"` con tu valor real proporcionado 
 ```js
 widget.mount({
   clientSecret: "TU_CLIENT_SECRET_AQUI",
-  limit: 8, // Puedes ajustar este valor para limitar el número de productos que se muestran
+  limit: 8, // Puedes ajustar este valor para limitar el número de productos que se muestran. Si no se especifica, el valor por defecto es 20
   selector: '#smartfy-sdk-product-list',
   onLoaded: () => console.log("Widget cargado"),
   onError: (err) => console.error("Error:", err)
